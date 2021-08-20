@@ -95,9 +95,27 @@ header{
   width: 100%;
   padding: 15px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .footer-text p{
   font-size: 1.3rem;
+}
+.company-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.company-logos div{
+  width: 5%;
+  height: 10%;
+  margin-left: 10px;
+}
+.company-logos .i4g{
+  width: 20%;
+}
+.company-logos div img{
+  width: 100%;
 }
